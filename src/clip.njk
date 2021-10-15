@@ -1,0 +1,12 @@
+---
+layout: "base.njk"
+---
+
+<div class="cardgroup">
+{% for item in clip.items %}
+    <div class="card">
+        <h1>{{ item.name }}</h1>
+        <iframe width='240' height='180' style='border: none;' src='{{item.link}}' allow='autoplay' allowfullscreen></iframe>
+    </div>
+{% endfor %}
+</div>

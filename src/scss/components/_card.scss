@@ -1,0 +1,19 @@
+.cardgroup {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: $breakpoint-lg;
+}
+
+.card {
+    width: 10rem;
+    background-color: gray;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+    &>img {
+        max-width: 10rem;
+    }
+}

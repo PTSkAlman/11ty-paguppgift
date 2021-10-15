@@ -1,0 +1,19 @@
+$breakpoint-lg: 48rem;
+$breakpoint-md: $breakpoint-lg/2;
+$breakpoint-sm: $breakpoint-md/2;
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width:  100%;
+    max-width: $breakpoint-lg;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import "components/nav.scss";
+@import "components/card.scss";

@@ -1,0 +1,50 @@
+{
+    "items": [
+        {
+            "name": "Dogecoin",
+            "description": "Dogecoin is pigpogabdul",
+            "ticker": "doge",
+            "link": "https://medal.tv/games/dead-by-daylight/clips/4ARbxAgbtlb-u/4cshwkGzHrso"
+        },
+        {
+            "name": "Bitcoin",
+            "description": "Bitcoin is pigpogabdul",
+            "ticker": "btc"
+        },
+        {
+            "name": "Ethereum",
+            "description": "Ethereum is pigpogabdul",
+            "ticker": "eth"
+        },
+        {
+            "name": "Binance coin",
+            "description": "Binance coin is pigpogabdul",
+            "ticker": "bnb"
+        },
+        {
+            "name": "Cardano",
+            "description": "Cardano is pigpogabdul",
+            "ticker": "ada"
+        },
+        {
+            "name": "card6",
+            "number": 6,
+            "description": "Lorem ipsum..."
+        },
+        {
+            "name": "card7",
+            "number": 7,
+            "description": "Lorem ipsum..."
+        },
+        {
+            "name": "card8",
+            "number": 8,
+            "description": "Lorem ipsum..."
+        },
+        {
+            "name": "card9",
+            "number": 9,
+            "description": "Lorem ipsum..."
+        }
+    ]
+}

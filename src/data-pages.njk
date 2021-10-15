@@ -1,0 +1,21 @@
+---
+layout: "base.njk"
+pagination:
+    data: crypto.items
+    size: 1
+    alias: data
+permalink: "crypto/{{ data.name | slug }}/"
+---
+
+<div class="cardgroup">
+    {{ item | dump }}
+    {% for item in data %}
+    <div class="card">
+    <img src="https://cryptoicons.org/api/icon/{{ item.ticker }}/100" alt="{{ item.ticker }}">
+    <h1>{{ item.name }}</h1>
+    <h1>{{ item.number }}</h1>
+    <p>{{ item.description }}</p>
+    <a href="/">Buy now!</a>
+    </div>
+    {% endfor %}
+</div>

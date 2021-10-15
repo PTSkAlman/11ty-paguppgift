@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>yo</title>
 </head>
 <body>
-    
+    <nav class="container nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+            {% for item in nav.items %}
+            <li><a href="/{{ item.name }}">{{ item.name }}</a></li>
+            {% endfor%}
+        </ul>
+    </nav>
+    <main class="container">
+        
+        {{ content | safe }}
+    </main>
 </body>
 </html>

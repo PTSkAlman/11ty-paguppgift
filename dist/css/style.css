@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  background-color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.nav > ul {
+  padding: 0;
+  margin: 0;
+  padding: 2rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+.nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.cardgroup {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 48rem;
+}
+
+.card {
+  width: 10rem;
+  background-color: gray;
+  padding: 2rem;
+  margin-top: 1rem;
+  border-radius: 12px;
+}
+.card > img {
+  max-width: 10rem;
+}
